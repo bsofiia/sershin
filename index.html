@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tire Website</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        
+        <div class="wrapper">
+            <!--шапка сайта-->
+            <header class="container">
+                <img src="img/logo.png" alt="">
+                <nav>
+            <ul>
+                <li class="active"><a href="#">Главная</a></li><!--создания кнопок вверху сайта с правой стороны-->
+                <li><a href="#">Шины</a></li>
+                <li ><a href="#">Диски</a></li>
+                <li ><a href="#">Отзывы</a></li>
+                <li ><a href="#">Про нас</a></li>
+                <li class="btn"><a href="#"><img src="img/korsina.png" alt=""></a></li> 
+            </ul>
+        </nav>
+
+            </header>
+            
+        </div>
+        <!--блок со списком-->
+        <div class="features">
+            <div class="container">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+        </div>
+
+        <!--Блок подбора шин и дисков-->
+        <section class="selector"> <!-- Начало секции подбора шин и дисков -->
+            <div class="selector-tabs">  <!-- Верхние вкладки: Подбор шин и Подбор дисков -->
+
+                <div class="tab active">  <!-- Активная вкладка: Подбор шин -->
+                    <img src="img/tire2.png" alt="">
+                    <span>ПОДБОР ШИН</span>
+                </div>
+
+                <div class="tab">
+                    <img src="img/tires1.png" alt="">
+                    <span>ПОДБОР ДИСКОВ</span>
+                </div>
+
+            </div>
+
+            <div class="selector-body"> <!-- Основной блок с двумя колонками (слева и справа) -->
+                <div class="column"><!-- Левая колонка — подбор шин по размеру -->
+                    <!-- Подзаголовок: По размеру (активная кнопка) -->
+                    <button class="sub-tab active">ПО РАЗМЕРУ</button>
+                    <!-- Выпадающий список производителей -->
+      <select>
+        <option disabled selected>Изготовитель</option>
+      </select>
+
+      <!-- Выпадающий список годов -->
+      <select>
+        <option disabled selected>Год</option>
+      </select>
+
+      <!-- Выпадающий список сезонов -->
+      <select>
+        <option disabled selected>Сезон</option>
+      </select>
+    </div>
+
+    <!-- Правая колонка — подбор шин по автомобилю -->
+    <div class="column">
+      
+      <!-- Подзаголовок: По авто (неактивная кнопка) -->
+      <button class="sub-tab">ПО АВТО</button>
+
+      <!-- Выпадающий список моделей -->
+      <select>
+        <option disabled selected>Модель</option>
+      </select>
+
+      <!-- Выпадающий список модификаций -->
+      <select>
+        <option disabled selected>Модификация</option>
+      </select>
+
+      <!-- Кнопка "Подобрать шины" с иконкой лупы -->
+      <button class="submit-btn">🔍 Подобрать шины</button>
+    </div>
+  </div>
+</section>
+
+                </div>
+            </div>
+        </section>
+
+        
+    </body>
+</html>

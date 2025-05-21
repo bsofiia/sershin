@@ -1,0 +1,64 @@
+/* подключаем шрифт*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    /*внешний отступ*/
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+img{
+    max-width: 100%;
+}
+.wrapper {
+    background-color: #ba181b;
+}
+header.container {
+    max-width: 1400px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center; /* Центр по вертикали */
+    justify-content: space-between; /* Лого слева, меню справа */
+    height: 80px; /* Можно настроить по нужной высоте */
+    box-sizing: border-box;
+
+}
+header{
+    padding: 50px 0;
+}
+header.logo{
+    text-transform: center;
+    font-weight: 195px;
+}
+nav{
+    float: right;
+    width: 50%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    padding-top: 15px;
+}
+
+/*блок со списком*/
+.features{
+    background: url('../img/background.png') no-repeat center center fixed;
+    background-size: cover;
+    padding: 80px 0;
+    height: 600px;
+}
